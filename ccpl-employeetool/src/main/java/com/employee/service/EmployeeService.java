@@ -92,7 +92,7 @@ public class EmployeeService implements IEmployeeService {
 	}
      
 	
-	 //GetById Method for Employee
+	 //Inquire Method for Employee
 	
 	
 	@Override
