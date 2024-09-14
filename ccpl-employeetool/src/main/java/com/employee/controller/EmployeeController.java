@@ -154,6 +154,7 @@ public class EmployeeController {
 	  
 	  @PutMapping("/updateforproject/{id}")
 		public ProjectDetails updateproject(@PathVariable(name = "id")int id,@RequestBody(required = true)  ProjectDetails projectDetails) {
+			System.out.println("id");
   			return iEmployeeService.updateproject(projectDetails);
 	  	}
 }
