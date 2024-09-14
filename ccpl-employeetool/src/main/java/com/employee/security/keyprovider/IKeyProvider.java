@@ -9,7 +9,7 @@ import java.security.spec.InvalidKeySpecException;
 
 public interface IKeyProvider {
 	public PrivateKey getPrivateKey(String aliasName)
-			throws UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException, InvalidKeySpecException;
+			throws UnrecoverableKeyException, KeyStoreException, NoSuchAlgorithmException, InvalidKeySpecException,RuntimeException;
 
 	public PublicKey getPublicKey(String aliasName) throws KeyStoreException;
 
