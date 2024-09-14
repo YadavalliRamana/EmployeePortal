@@ -7,8 +7,15 @@ public class AttendanceRequestDto {
 	private String endTime;
 	private String employeeId;
 	private String day;
+	private String date;
 	
-	
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
     
 	public String getEmployeeId() {
 		return employeeId;
