@@ -8,7 +8,7 @@ public interface ISignatureService {
 	public static final String SEPARATOR = ".";
 
 	public String sign(String alias, String algorithm, String data)
-			throws NoSuchAlgorithmException, InvalidKeyException, SignatureException;
+			throws NoSuchAlgorithmException, InvalidKeyException, SignatureException,RuntimeException;
 
 	public boolean verify(String alias, String algorithm, String signedData)
 			throws InvalidKeyException, NoSuchAlgorithmException, SignatureException;
