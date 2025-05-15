@@ -280,9 +280,7 @@ public class EmployeeService implements IEmployeeService {
 				attendanceResponceDtos.add(attendanceResponceDto);
 			}
 		}
-		return attendanceResponceDtos;
-	}
-	
+		return attendanceResponceDtos;uest
 	//Post Method for Leaves
 
 	@Override
